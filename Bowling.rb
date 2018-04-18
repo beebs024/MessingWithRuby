@@ -5,7 +5,10 @@ class Bowling
 =begin
   @frames = [['x'],[7,'/'],[9,0],['x'],[0,8],[8,'/'],[0,6],['x'],['x'],['x', 8, 1]] #should be 167
 =end
+=begin
   @frames = [['x'],[7,'/'],[7,2],[9, '/'],['x'],['x'],['x'],[2, 3],[6, '/'],[7, '/', 3]] #should be 168
+=end
+  @frames = [['x'],['x'],['x'],['x'],['x'],['x'],['x'],['x'],['x'],['x', 'x', 'x']] #should be 300
   score=0
   for i in 0...@frames.length
     if @frames[i][0]=='x' && i<=@frames.length-3

@@ -3,7 +3,7 @@ class Encrypt
   "e","*", "f", "%", "g", "&", "h", ">", "i", "<", "j",
   "@", "k", "a", "l", "b", "m", "c","n", "d", "o", "e", "p",
   "f", "q", "g", "r", "h", "s", "i", "t", "j", "u", "k",
-  "v", "l", "w", "m", "x", "o", "y", "p", "z", " ", " "]
+  "v", "l", "w", "m", "x", "o", "y", "p", "z", "1", " "]
   puts "Please insert a single line sting to encrypt:"
   stringToEncrypt = gets.chomp
   encryptedString = ""
